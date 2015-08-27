@@ -1,6 +1,6 @@
 {
   "name": "jsvars-loader",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "webpack loader for sharing style variables in both JS and CSS",
   "main": "jsvars-loader.js",
   "scripts": {
