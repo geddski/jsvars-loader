@@ -13,7 +13,7 @@ module.exports = function(source) {
     this.cacheable(false);
     var file = path.resolve(match[2]);
     this.addDependency(file);
-    var contents = this.exec(fs.readFileSync(file).toString());
+    var contents = this.exec(fs.readFileSync(file).toString(), file);
     var res = flatten(contents, {delimiter: '-'});
     
     var final = Object.keys(res).map(function(key){
