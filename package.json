@@ -25,5 +25,8 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-release": "^0.13.0"
+  },
+  "dependencies": {
+    "flat": "^2.0.1"
   }
 }
